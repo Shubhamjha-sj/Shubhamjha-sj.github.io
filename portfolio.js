@@ -9,4 +9,4 @@ const observer = new IntersectionObserver(entries => {
     }
   }
 }, { rootMargin: '-10% 0px -55% 0px', threshold: 0 });
-for (const section of document.querySelectorAll('#top, #work, #experience, #about, #contact')) observer.observe(section);
+for (const section of document.querySelectorAll('#top, #work, #experience, #about, #leadership, #publications, #credentials, #skills, #contact')) observer.observe(section);
